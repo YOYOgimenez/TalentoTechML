@@ -1,0 +1,15 @@
+# dataset
+data/
+*.csv
+
+# python
+__pycache__/
+*.pyc
+.env
+
+# jupyter
+.ipynb_checkpoints/
+
+# vscode/cursor
+.vscode/
+.cursor/
