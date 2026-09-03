@@ -1,15 +1,31 @@
-# dataset
+# Modelos y artefactos entrenados
+*.pkl
+*.joblib
+*.h5
+*.keras
+
+# Datos
 data/
 *.csv
+*.zip
 
-# python
-__pycache__/
-*.pyc
-.env
-
-# jupyter
+# Jupyter
 .ipynb_checkpoints/
 
-# vscode/cursor
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Entornos y credenciales
+.env
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Editores
 .vscode/
-.cursor/
+.idea/
